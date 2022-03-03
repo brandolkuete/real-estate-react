@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { Buffer } from 'buffer'
 
-const ANNOUNCE_URL= "http://localhost:8080/api/announce"
+const ANNOUNCE_URL= "http://37.187.88.37:7071/api/announce"
 
 const config = {     
 headers: { 'content-type': 'multipart/form-data' }
